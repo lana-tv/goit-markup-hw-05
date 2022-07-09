@@ -789,7 +789,7 @@ ul {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-
+	
 	display: flex;
 	justify-content: flex-end;
 
@@ -799,10 +799,9 @@ ul {
 	transform: opacity 1, visibility: visible;
 	
 	transition-property: opacity, visibility;
-		transition-duration: 1250ms;
+	transition-duration: 1250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .modal-button {
 	position: absolute;
