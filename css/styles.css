@@ -796,8 +796,9 @@ ul {
 	min-width: 528px;
 	min-height: 581px;
 	background-color: var(--color-h1);
+	transform: opacity 1, visibility: visible;
 	
-	transition-property: scale;
+	transition-property: opacity, visibility;
 		transition-duration: 1250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
