@@ -40,10 +40,6 @@ ul {
 	list-style: none;
 }
 
-a:focus {
-	outline: 0 transparent;
-}
-
 .page-header {
 	padding-top: 24px;
 	padding-bottom: 25px;
